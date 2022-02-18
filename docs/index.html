@@ -43,6 +43,11 @@
     });
 
     window.$docsify = {
+      repo: 'https://github.com/enovision/extjs-fullcalendar-tutorial',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      name: 'Sencha ExtJS Fullcalendar Plugin Tutorial',
       homepage: 'home.md',
       name: '<img src="media/logo_enovision_200.webp" data-origin="media/logo_enovision_200.webp" alt="Log" class="sidebar-logo">',
       // name: '<img src="media/logo_enovision_200.webp" data-origin="media/logo_enovision_200.webp" alt="Log" class="sidebar-logo">Style Dictionary',
@@ -54,9 +59,6 @@
       },
       basePath: '/pages/',
       auto2top: true,
-      alias: {
-        '/.*/sidebar.md': '/sidebar.md'
-      },
       loadSidebar: true,
       subMaxLevel: 3,
       loadNavbar: true,
