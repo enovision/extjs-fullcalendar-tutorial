@@ -1,5 +1,7 @@
 # Home
 
+This is the home page
+
 ## Youtube iframe
 
 [filename](//www.youtube.com/embed/EQfOqTSBBT4 ':include :type=iframe')
