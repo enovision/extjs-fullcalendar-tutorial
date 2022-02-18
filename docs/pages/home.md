@@ -5,7 +5,7 @@
 [filename](//www.youtube.com/embed/EQfOqTSBBT4 ':include :type=iframe')
 
 ## Video embed
-[filename](../_media/sample.mp4 ':include :type=video')
+[filename](../media/sample.mp4 ':include :type=video')
 
 
 # Plantum UML
