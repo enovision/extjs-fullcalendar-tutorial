@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](../_media/logo_enovision_200.webp)
+![logo](../media/logo_enovision_200.webp)
 
 # docsify <small>3.5</small>
 
