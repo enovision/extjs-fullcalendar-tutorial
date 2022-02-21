@@ -1,4 +1,4 @@
-import plugin from './plugin';
+import plugin from './docsify-fancy-folder';
 
 if (!window.$docsify) {
   window.$docsify = {}
