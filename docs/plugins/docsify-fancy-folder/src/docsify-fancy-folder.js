@@ -1,4 +1,4 @@
-import './css/style.min.css';
+import './css/style.css';
 import folderizer from './folderizer';
 
 const LANG = 'directory';
