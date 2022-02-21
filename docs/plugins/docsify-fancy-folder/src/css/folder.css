@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+.shortcode-thunder-folder {
+  background: #5c5c5c;
+  color: #fff;
+  padding: 1em; }
+  .shortcode-thunder-folder .folder-container {
+    padding: 0 20px;
+    margin: 0;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.2rem;
+    font-weight: regular; }
+    .shortcode-thunder-folder .folder-container .--icon-- {
+      padding-right: 0.3em;
+      padding-left: 0.4em;
+      top: 0;
+      position: relative; }
+    .shortcode-thunder-folder .folder-container .folder-wrapper {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+    .shortcode-thunder-folder .folder-container .file-item,
+    .shortcode-thunder-folder .folder-container .folder-item {
+      list-style-type: none;
+      position: relative; }
+      .shortcode-thunder-folder .folder-container .file-item .file-item-name,
+      .shortcode-thunder-folder .folder-container .file-item .folder-item-name,
+      .shortcode-thunder-folder .folder-container .folder-item .file-item-name,
+      .shortcode-thunder-folder .folder-container .folder-item .folder-item-name {
+        position: relative; }
+      .shortcode-thunder-folder .folder-container .file-item.level-0,
+      .shortcode-thunder-folder .folder-container .folder-item.level-0 {
+        margin-left: -15px; }
+      .shortcode-thunder-folder .folder-container .file-item.level-1,
+      .shortcode-thunder-folder .folder-container .folder-item.level-1 {
+        margin-left: 0.4em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-2,
+      .shortcode-thunder-folder .folder-container .folder-item.level-2 {
+        margin-left: 1.2em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-3,
+      .shortcode-thunder-folder .folder-container .folder-item.level-3 {
+        margin-left: 2.1em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-4,
+      .shortcode-thunder-folder .folder-container .folder-item.level-4 {
+        margin-left: 3.1em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-5,
+      .shortcode-thunder-folder .folder-container .folder-item.level-5 {
+        margin-left: 4.1em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-6,
+      .shortcode-thunder-folder .folder-container .folder-item.level-6 {
+        margin-left: 5.1em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-7,
+      .shortcode-thunder-folder .folder-container .folder-item.level-7 {
+        margin-left: 6.1em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-8,
+      .shortcode-thunder-folder .folder-container .folder-item.level-8 {
+        margin-left: 7.1em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-9,
+      .shortcode-thunder-folder .folder-container .folder-item.level-9 {
+        margin-left: 8.1em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-10,
+      .shortcode-thunder-folder .folder-container .folder-item.level-10 {
+        margin-left: 9.1em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-1:before,
+      .shortcode-thunder-folder .folder-container .folder-item.level-1:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        width: 0.3em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-2:before,
+      .shortcode-thunder-folder .folder-container .folder-item.level-2:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        width: 0.3em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-3:before,
+      .shortcode-thunder-folder .folder-container .folder-item.level-3:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        width: 0.3em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-4:before,
+      .shortcode-thunder-folder .folder-container .folder-item.level-4:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        width: 0.3em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-5:before,
+      .shortcode-thunder-folder .folder-container .folder-item.level-5:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        width: 0.3em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-6:before,
+      .shortcode-thunder-folder .folder-container .folder-item.level-6:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        width: 0.3em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-7:before,
+      .shortcode-thunder-folder .folder-container .folder-item.level-7:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        width: 0.3em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-8:before,
+      .shortcode-thunder-folder .folder-container .folder-item.level-8:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        width: 0.3em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-9:before,
+      .shortcode-thunder-folder .folder-container .folder-item.level-9:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        width: 0.3em; }
+      .shortcode-thunder-folder .folder-container .file-item.level-10:before,
+      .shortcode-thunder-folder .folder-container .folder-item.level-10:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        display: block;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        width: 0.3em; }
+      .shortcode-thunder-folder .folder-container .file-item.--first--:before,
+      .shortcode-thunder-folder .folder-container .folder-item.--first--:before {
+        height: 0.8em;
+        top: 0em; }
+      .shortcode-thunder-folder .folder-container .file-item.--rest--:before,
+      .shortcode-thunder-folder .folder-container .folder-item.--rest--:before {
+        height: 2em;
+        top: -1.2em; }
+    .shortcode-thunder-folder .folder-container .folder-item {
+      font-weight: bold; }
+
+/*# sourceMappingURL=folder.css.map */

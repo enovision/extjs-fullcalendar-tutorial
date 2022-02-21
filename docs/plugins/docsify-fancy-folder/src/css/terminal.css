@@ -1,0 +1,50 @@
+@charset "UTF-8";
+.code-output .code-output-inner .color-content-prompt {
+  color: #fff; }
+.code-output .code-output-inner .color-prompt-prefix {
+  color: #63de00; }
+.code-output .code-output-inner .color-prompt-suffix {
+  color: #c5c52c; }
+
+.code-terminal {
+  padding: 0;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 1em;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
+  .code-terminal:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.7em;
+    content: "";
+    padding-top: 35px;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+    left: 23px; }
+  .code-terminal .code-terminal-inner {
+    color: #242424;
+    background: #f6f9fb;
+    padding: 3px 0 3px 10px;
+    border-left: 35px solid #358ccb;
+    box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf; }
+    .code-terminal .code-terminal-inner a {
+      color: #358ccb; }
+      .code-terminal .code-terminal-inner a:hover, .code-terminal .code-terminal-inner a:focus, .code-terminal .code-terminal-inner a:active {
+        color: #afd1ea; }
+    .code-terminal .code-terminal-inner:before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      padding-top: 25px;
+      position: absolute;
+      transform: translateY(-50%);
+      right: 35px; }
+    .code-terminal .code-terminal-inner.ikon-terminal:before {
+      content: "";
+      color: #c28282; }
+    .code-terminal .code-terminal-inner.ikon-output:before {
+      content: "";
+      color: #c28282; }
+
+/*# sourceMappingURL=terminal.css.map */

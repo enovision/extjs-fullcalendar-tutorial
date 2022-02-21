@@ -1,0 +1,120 @@
+@import url('//fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+$shortcode-thunder-font-family: 'Inconsolata', monospace;
+$shortcode-thunder-font-weight: regular;
+$shortcode-thunder-font-size: 1.2rem;
+
+$shortcode-thunder-folder-padding: 0 20px;
+$shortcode-thunder-folder-margin: 0;
+$shortcode-thunder-level-margin-2: 1.2em;
+$shortcode-thunder-level-margin-start-3: 0.1em; // 1 less because of calculation
+$shortcode-thunder-level-margin-incr: 1; // was 0.8
+
+$shortcode-thunder-color: #fff;
+$shortcode-thunder-line-color: $shortcode-thunder-color;
+$shortcode-thunder-horizontal-line-width: 0.3em;
+
+$shortcode-thunder-border-height: 1.8em;
+$shortcode-thunder-border-height-first: 1.2em;
+
+$shortcode-thunder-bg-color: #5c5c5c;
+$shortcode-thunder-margin: 1em;
+
+$shortcode-thunder-icon-padding-right: 0.3em;
+$shortcode-thunder-icon-padding-left: $shortcode-thunder-horizontal-line-width + 0.1;
+$shortcode-thunder-icon-top: 0;
+
+.shortcode-thunder-folder {
+
+  background: $shortcode-thunder-bg-color;
+  color: $shortcode-thunder-color;
+  padding: $shortcode-thunder-margin;
+
+  .folder-container {
+    padding: $shortcode-thunder-folder-padding;
+    margin: $shortcode-thunder-folder-margin;
+
+    font-family: $shortcode-thunder-font-family;
+    font-size: $shortcode-thunder-font-size;
+    font-weight: $shortcode-thunder-font-weight;
+
+    .--icon-- {
+      padding-right: $shortcode-thunder-icon-padding-right;
+      padding-left: $shortcode-thunder-icon-padding-left;
+      top: $shortcode-thunder-icon-top;
+      position: relative;
+    }
+
+    .folder-wrapper {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .file-item,
+    .folder-item {
+      list-style-type: none;
+      position: relative;
+
+      .file-item-name,
+      .folder-item-name {
+        position: relative;
+      }
+
+      &.level-0 {
+        margin-left: -15px;
+      }
+
+      &.level-1 {
+        margin-left: 0.4em;
+      }
+
+      &.level-2 {
+        margin-left: $shortcode-thunder-level-margin-2;
+      }
+
+      @for $i from 3 through 10 {
+        &.level-#{$i} {
+          margin-left: $shortcode-thunder-level-margin-start-3 + ($shortcode-thunder-level-margin-incr * $i) - 1;
+        }
+      }
+
+      @for $i from 1 through 10 {
+        &.level-#{$i}:before {
+          position: absolute;
+          left: 0;
+          content: '';
+          display: block;
+          border-left: 1px solid $shortcode-thunder-line-color;
+          border-bottom: 1px solid $shortcode-thunder-line-color;
+          width: $shortcode-thunder-horizontal-line-width;
+        }
+      }
+
+      &.--first-- {
+        &:before {
+          // height: $shortcode-thunder-border-height-first;
+          // top: 0;
+
+          height: 0.8em;
+          top: 0em;
+        }
+      }
+
+      &.--rest-- {
+        &:before {
+          // height: $shortcode-thunder-border-height;
+          // top: -10px;
+
+          height: 2em;
+          top: -1.2em;
+        }
+      }
+
+    }
+
+    .folder-item {
+      font-weight: bold;
+    }
+  }
+}

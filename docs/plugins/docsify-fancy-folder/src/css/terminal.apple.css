@@ -1,0 +1,92 @@
+.cssterm {
+  clear: both;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 4px 2px 8px #090909;
+  padding: 12px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: "Ubuntu Mono", "DejaVu Sans Mono", "Courier New", Courier, monospace;
+  background: #232323;
+  background: rgba(9, 9, 9, 0.9);
+  color: #63de00;
+  max-width: 97%;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+  .cssterm .noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                     supported by Chrome, Opera and Firefox */ }
+
+.cssterm:before {
+  display: block;
+  position: relative;
+  width: 100%;
+  left: -12px;
+  top: -12px;
+  padding: 12px;
+  content: "Terminal";
+  color: #c9c9c9;
+  font-size: smaller;
+  font-weight: bold;
+  line-height: 4px;
+  background: #010101; }
+
+.cssterm:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #88070e;
+  background-color: #f4343e;
+  background: linear-gradient(to bottom, #f7646c, #d00b16);
+  right: 8px; }
+
+.cssterm > *:before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #07880e;
+  background-color: #34f43e;
+  background: linear-gradient(to bottom, #64f76c, #0bd016);
+  right: 32px; }
+
+.cssterm > *:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #917608;
+  background-color: #f4d03e;
+  background: linear-gradient(to bottom, #f7dc6e, #d9b10c);
+  right: 56px; }
+
+.entry-content pre {
+  white-space: pre-wrap; }
+
+/*! CSS Used from: Embedded */
+* {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=terminal.apple.css.map */
