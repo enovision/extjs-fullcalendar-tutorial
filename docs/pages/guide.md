@@ -1,5 +1,15 @@
 # This is the guide
 
+## Folder plugin
+
+```directory
+o [root]
++. index.html
++. inferno.js
++o src
+++. BasicComponent.js
+```
+
 ## Header 2 <!-- {docsify-ignore} -->
 
 Some text
